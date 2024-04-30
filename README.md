@@ -26,8 +26,10 @@ To run our project, the following dependencies and software must be installed: H
 
 Running the program:
 1. Make sure to have docker open.
-2. Run './bchoc_backup' to initialize the network and blockchain.
-3. Run './bchoc' to run blockchain methods.
+2. The makefile will compile the bchoc executable with a make command
+3. Makre sure the bchoc executable is just outside the fabric samples directory so the subproccesses have the correct path
+4. Run './bchoc_backup' to initialize the network and blockchain.
+5. Run './bchoc' to run blockchain methods.
 
 In case certain methods don't run:
 1. cd fabric-samples/asset-transfer-basic/application-gateway-typescript/dist
