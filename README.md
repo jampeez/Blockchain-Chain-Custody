@@ -23,3 +23,7 @@ To run our project, the following dependencies and software must be installed: H
 7. Verifying the Blockchain: There would be a verification process to ensure the integrity of the blockchain, checking for errors like mismatched hashes, duplicate entries, or improper state transitions.
 
 8. Storing Data: All data within the blockchain would be stored in a binary format to maintain the integrity and security of the data.
+
+Running the program:
+1. Make sure to have docker open.
+2. Run './bchoc' to initialize the network and blockchain.
