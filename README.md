@@ -1,1 +1,23 @@
 # Blockchain-Chain-Custody
+Cyberchase
+Jaime Pesqueira - 1222168831
+The program for Option 2, using Hyperledger, 
+This is an application that creates and manages a blockchain to keep track of a chain of custody for evidence in forensic investigations.
+
+1. Initialization: Upon starting, the program would check if the blockchain already exists by looking for an initial block. If not present, it would create an initial block containing predefined values, which acts as the genesis block for the blockchain.
+
+2. Environment Variables: The program would use predefined environment variables for passwords associated with different roles (e.g., police, lawyer, analyst, etc.) and a hardcoded AES encryption key for securing IDs.
+
+3. Adding Evidence: To add new evidence items to the blockchain, the program would take input such as the case ID and item ID. It would encrypt these IDs using AES ECB encryption with the provided key before storing them. The state of the newly added item is set to CHECKEDIN by default.
+
+4. Changing Custody Status: The application would handle checkout and checkin actions, allowing users with the correct password to update the status of an evidence item to reflect its current custody status (checked out or checked in).
+
+5. Removing Evidence: Users could remove an evidence item from active circulation within the blockchain. This action would be allowed only if the item is in a CHECKEDIN state and the user has the correct password.
+
+6. Querying the Blockchain: The program would provide functionality to show all cases, items associated with a case, and the history of actions taken on an evidence item. To view detailed information, the correct password must be provided.
+
+7. Verifying the Blockchain: There would be a verification process to ensure the integrity of the blockchain, checking for errors like mismatched hashes, duplicate entries, or improper state transitions.
+
+8. Storing Data: All data within the blockchain would be stored in a binary format to maintain the integrity and security of the data.
+
+The Hyperledger framework would be utilized to implement the blockchain, providing features such as smart contracts to encode business logic, privacy, and consensus mechanisms to validate transactions. The application would be compatible with specific system requirements such as certain versions of Ubuntu, Docker, Node.js, and others as specified in the guidelines.
