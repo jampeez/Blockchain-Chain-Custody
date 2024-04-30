@@ -1,7 +1,7 @@
 # Blockchain-Chain-Custody
 Cyberchase
 Jaime Pesqueira - 1222168831
-The program for Option 2, using Hyperledger, 
+The program is for Option 2, using Hyperledger. 
 This is an application that creates and manages a blockchain to keep track of a chain of custody for evidence in forensic investigations.
 
 1. Initialization: Upon starting, the program would check if the blockchain already exists by looking for an initial block. If not present, it would create an initial block containing predefined values, which acts as the genesis block for the blockchain.
@@ -19,5 +19,3 @@ This is an application that creates and manages a blockchain to keep track of a 
 7. Verifying the Blockchain: There would be a verification process to ensure the integrity of the blockchain, checking for errors like mismatched hashes, duplicate entries, or improper state transitions.
 
 8. Storing Data: All data within the blockchain would be stored in a binary format to maintain the integrity and security of the data.
-
-The Hyperledger framework would be utilized to implement the blockchain, providing features such as smart contracts to encode business logic, privacy, and consensus mechanisms to validate transactions. The application would be compatible with specific system requirements such as certain versions of Ubuntu, Docker, Node.js, and others as specified in the guidelines.
