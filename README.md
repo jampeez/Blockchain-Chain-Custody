@@ -27,3 +27,4 @@ To run our project, the following dependencies and software must be installed: H
 Running the program:
 1. Make sure to have docker open.
 2. Run './bchoc_backup' to initialize the network and blockchain.
+3. Run './bchoc' to run blockchain methods.
