@@ -3,8 +3,10 @@ Cyberchase
 Jaime Pesqueira - 1222168831
 Kevin Doan - 1222041990
 Adam Nguyen - 1222561561
+Isaiah Nikodimos - 1213084962
 The program is for Option 2, using Hyperledger. 
 This is an application that creates and manages a blockchain to keep track of a chain of custody for evidence in forensic investigations.
+To run our project, the following dependencies and software must be installed: Hyperledger Fabric binary and docker images (included in the fabric.zip file), Docker desktop, node, go, git, typescript, npm, and pycryptodome for hash functionality
 
 1. Initialization: Upon starting, the program would check if the blockchain already exists by looking for an initial block. If not present, it would create an initial block containing predefined values, which acts as the genesis block for the blockchain.
 
