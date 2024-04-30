@@ -28,3 +28,7 @@ Running the program:
 1. Make sure to have docker open.
 2. Run './bchoc_backup' to initialize the network and blockchain.
 3. Run './bchoc' to run blockchain methods.
+
+In case certain methods don't run:
+1. cd fabric-samples/asset-transfer-basic/application-gateway-typescript/dist
+2. node app.js [insert command] [options]
