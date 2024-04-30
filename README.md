@@ -32,3 +32,5 @@ Running the program:
 In case certain methods don't run:
 1. cd fabric-samples/asset-transfer-basic/application-gateway-typescript/dist
 2. node app.js [insert command] [options]
+
+The zip file was too big so here is the link to download: https://drive.google.com/file/d/1Q6Y9QDUM6BmALPQYLXyFdmZY_swGyQIH/view?usp=sharing
